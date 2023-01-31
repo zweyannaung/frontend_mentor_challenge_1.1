@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@400;500&display=swap');
+
+$font-family-sans-serif: 'Rubik', sans-serif;
+
+$primary:hsl(231, 69%, 60%);
+$danger:hsl(0, 94%, 66%);
+$info:hsl(229, 8%, 60%);
+$secondary:hsl(229, 31%, 21%);
+
+$navbar-nav-link-padding-x:1.6rem;
+$navbar-light-hover-color:$danger;
+$navbar-padding-y:2rem;
+
+$btn-padding-x:2rem;
+$btn-border-width:2px;
+
+$accordion-button-active-color:$danger;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.cc{
+    color: white;
+    background-color: $danger;
+}
+.cc:hover{
+    background-color: #fff;
+        color: $danger;
+}
+
+p,.f_18{
+    font-size: 18px;
+}
+.mg_150{
+    margin-bottom: 150px;
+}
+.pp{
+    margin-top: 60px;
+}
+.ls{
+    letter-spacing: 5px;
+}
+.lf{
+    letter-spacing: 3px;
+}
